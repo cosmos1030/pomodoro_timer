@@ -1,15 +1,19 @@
-/* 추가된 스타일 */
 body {
   display: flex;
   justify-content: center;
+  /* 주축 기준 정렬 */
   align-items: center;
+  /* 교차축 기준 정렬 */
   height: 100vh;
+  /* 현재 view port 높이의 100% */
   margin: 0;
   font-family: Arial, sans-serif;
+  /* 글자의 끝에 삐침이 없는 폰트 */
 }
 
 .timer {
   text-align: center;
+  /* 텍스트가 포함된 요소의 수평 방향 정렬 지정 */
 }
 
 .time-display {
@@ -20,12 +24,12 @@ body {
 
 canvas {
   margin-bottom: 20px;
-  /* border: 5px solid #4caf50; 캔버스의 테두리를 초록색으로 보이도록 추가 */
 }
 
 button {
   font-size: 16px;
   padding: 10px 20px;
+  /* 위아래 왼쪽오른쪽 */
   margin: 0 5px;
   cursor: pointer;
 }
